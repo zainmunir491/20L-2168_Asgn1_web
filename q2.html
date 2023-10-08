@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="q2style.css" />
+    <title>SkillMingle</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <div class="toggle-sidebar">&#9776;</div>
+          <a href="#">Skill Mingle</a>
+        </div>
+        <ul class="nav-links">
+          <li class="dropdown">
+            <a href="#">Home</a>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#">Browse Categories</a>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#">Post a Job</a>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#">Sign In</a>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <aside class="sidebar">
+      <div>
+        <div class="toggle-sidebar sidebar-close cross">&#x2715;</div>
+        <h3>Skill Mingle</h3>
+      </div>
+      <ul class="sidebar-links">
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Messages</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </aside>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>The Freelance Fusion</h1>
+          <p>Hire Freelancers for Your Projects</p>
+          <a href="#" class="btn">Sign Up</a>
+        </div>
+      </section>
+
+      <section class="search-bar">
+        <h2>Search Freelancers</h2>
+        <form>
+          <input
+            type="text"
+            placeholder="Search for freelancers by skills, category, etc."
+          />
+          <button type="submit">Search</button>
+        </form>
+      </section>
+
+      <section class="categories">
+        <h2>Browse Categories</h2>
+        <div class="category-card">
+          <div class="category-item">
+            <div class="category-img">
+              <a href="#" class="fl">
+                <img src="./ui-ux-pic.jpg" alt="Category 1" />
+              </a>
+            </div>
+            <a href="#" class="fl">
+              <h3>UI/UX Designs</h3>
+            </a>
+          </div>
+          <div class="category-item">
+            <div class="category-img">
+              <a href="#" class="fl">
+                <img src="./web-pic.png" alt="Category 2" />
+              </a>
+            </div>
+            <a href="#" class="fl">
+              <h3>Web Development</h3>
+            </a>
+          </div>
+          <div class="category-item">
+            <div class="category-img">
+              <a href="#" class="fl">
+                <img src="./mobile-pic.jpg" alt="Category 3" />
+              </a>
+            </div>
+            <a href="#" class="fl">
+              <h3>Mobile App Development</h3>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured-freelancers">
+        <h2>Featured Freelancers</h2>
+        <div class="freelancer-card">
+          <div class="freelancer-item">
+            <a href="#" class="fl">
+              <img src="./fl-1.jpeg" alt="Freelancer 1" />
+              <h3>Mirza Saif Baig</h3>
+              <p>Skills: HTML-CSS, Java, Python</p>
+            </a>
+          </div>
+          <div class="freelancer-item">
+            <a href="#" class="fl">
+              <img src="./fl-2.jpeg" alt="Freelancer 2" />
+              <h3>Osama Farooq</h3>
+              <p>Skills: MERN, JavaScript, HTML-CSS</p>
+            </a>
+          </div>
+          <div class="freelancer-item">
+            <a href="#" class="fl">
+              <img src="./fl-3.jpeg" alt="Freelancer 3" />
+              <h3>Ramis Khan</h3>
+
+              <p>Skills: Photoshop, Figma</p>
+            </a>
+          </div>
+          <!-- Add more freelancer items here -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Skill Mingle. All rights reserved.</p>
+    </footer>
+
+    <script src="q2script.js"></script>
+  </body>
+</html>
